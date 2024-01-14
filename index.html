@@ -3,7 +3,7 @@
 <body>
 <h1>Hello Julatip Nuwan</h1>
 
-<p id="title">I like TIKTok</p>
+<p id="title">ทดสอบ</p>
 <p id="display"></p>
 <input type="text" id="lname" name="lname"><br><br>
 
@@ -11,8 +11,15 @@
 // We can put Javascript code here.
 function sayWelcome(customerName){
     document.getElementById("display").innerHTML ="เครื่องดื่ม คุณ" +" " + customerName +" "+ "ได้แล้วค่ะ";
+
 }
 sayWelcome("Biew");
+
+function Customer(amountCustomer , queueCode){
+    document.getElementById("display").innerHTML ="ลูกค้าจำนวน "+ + amountCustomer +" ท่าน รับคิว " + queueCode;
+}
+Customer(3, 'A');
+
 </script>
 
 </body>
