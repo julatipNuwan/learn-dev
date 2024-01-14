@@ -7,7 +7,7 @@
 // let Age=30;
 // console.log(Name, Age);
 
-let firstName="Nuwan";
+let firstName="julatip";
 let lastName="Nuwan";
 let age=30;
 console.log(firstName, lastName , age);
