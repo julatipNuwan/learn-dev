@@ -7,6 +7,8 @@
 <p id="display"></p>
 <input type="text" id="lname" name="lname"><br><br>
 
+<p id="titleName">ทดสอบ 2</p>
+
 <script>
 // We can put Javascript code here.
 function sayWelcome(customerName){
@@ -15,8 +17,9 @@ function sayWelcome(customerName){
 }
 sayWelcome("Biew");
 
+
 function Customer(amountCustomer , queueCode){
-    document.getElementById("display").innerHTML ="ลูกค้าจำนวน "+ + amountCustomer +" ท่าน รับคิว " + queueCode;
+    document.getElementById("titleName").innerHTML ="ลูกค้าจำนวน "+ + amountCustomer +" ท่าน รับคิว " + queueCode;
 }
 Customer(3, 'A');
 
