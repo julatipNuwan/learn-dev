@@ -5,9 +5,14 @@
 
 <p>I like TIKTok</p>
 <p id="display"></p>
+<input type="text" id="lname" name="lname"><br><br>
 
 <script>
 // We can put Javascript code here.
+function sayWelcome(customerName){
+    document.getElementById("display").innerHTML ="เครื่องดื่ม คุณ" +" " + customerName +" "+ "ได้แล้วค่ะ";
+}
+sayWelcome("Biew");
 </script>
 
 </body>

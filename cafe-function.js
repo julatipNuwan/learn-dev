@@ -27,6 +27,7 @@ welcome(": Ann");
 
 function sayWelcome(customerName){
     console.log("เครื่องดื่ม คุณ" +" " + customerName +" "+ "ได้แล้วค่ะ");
+    document.getElementById("display").innerHTML ="เครื่องดื่ม คุณ" +" " + customerName +" "+ "ได้แล้วค่ะ";
 }
 sayWelcome("Biew");
 sayWelcome("Ann");
